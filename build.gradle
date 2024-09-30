@@ -5,6 +5,10 @@ plugins {
 group = 'org.example'
 version = '1.0-SNAPSHOT'
 
+apply plugin: "java"
+apply plugin: "application"
+mainClassName = "section03.main.WebService"
+
 repositories {
     mavenCentral()
 }
